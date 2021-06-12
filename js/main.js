@@ -160,6 +160,7 @@ VeeValidate.configure({
 });
 
 VeeValidate.defineRule('email', VeeValidateRules['email']);
+VeeValidate.defineRule('numeric', VeeValidateRules['numeric']);
 VeeValidate.defineRule('required', VeeValidateRules['required']);
 VeeValidate.defineRule('min', VeeValidateRules['min']);
 VeeValidate.defineRule('max', VeeValidateRules['max']);

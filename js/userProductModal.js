@@ -23,7 +23,6 @@ export default {
     }
   },
   mounted() {
-    // console.log(this.$refs);
     this.modal = new bootstrap.Modal(this.$refs.modal);
   }
 }
